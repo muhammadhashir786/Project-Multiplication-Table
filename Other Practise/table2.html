@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="table2.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Multiplication Table</h1>
+
+      <form onsubmit="show(event)">
+        <input type="number" id="number" placeholder="Enter a number" />
+        <br />
+        <br />
+
+        <div id="range">
+          <input
+            type="number"
+            id="start"
+            class="range"
+            placeholder="where to start"
+          />
+          <input
+            type="number"
+            id="end"
+            class="range"
+            placeholder="where to end"
+          />
+        </div>
+        <!-- <br /> -->
+        <button type="submit">submit</button>
+      </form>
+
+      <p></p>
+    </div>
+    <script src="table2.js"></script>
+  </body>
+</html>

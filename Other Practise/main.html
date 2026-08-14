@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- box -->
+    <div id="box">
+      <!-- title -->
+      <h1 id="title">Multiplication Table</h1>
+
+      <!-- takes input from the user -->
+
+      <form onsubmit="printTable(event)">
+        <div id="user-input-box">
+          <label for="user-input">
+            <input
+              type="number"
+              id="user-input"
+              placeholder="Enter a Number to print Multiplication Table"
+              required
+            />
+          </label>
+        </div>
+
+        <br />
+
+        <div id="range">
+          <div id="start-input-value" class="range">
+            <label for="starting-value">
+              <input
+                type="number"
+                id="starting-value"
+                placeholder="Where To Start"
+                required
+              />
+            </label>
+          </div>
+
+          <div id="end-input-value" class="range">
+            <label for="ending-value">
+              <input
+                type="number"
+                id="ending-value"
+                placeholder="Where To End"
+                required
+              />
+            </label>
+          </div>
+        </div>
+
+        <br />
+
+        <button type="submit" style="display: none"></button>
+      </form>
+
+      <!-- print table here -->
+
+      <p id="table-content"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

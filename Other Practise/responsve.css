@@ -1,0 +1,332 @@
+/* Responsive */
+
+/* 0 - 480 */
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  #box {
+    width: 80%;
+    height: 60vh;
+    border-radius: 18px;
+    /* justify-content: space-between; */
+    /* gap: 0%; */
+    gap: 20%;
+    /* padding: 40px 40px; */
+    padding: 8% 9%;
+    /* padding-bottom: 45px; */
+    padding-bottom: 15%;
+  }
+
+  h1 {
+    font-size: 28px;
+    /* font-weight: bolder; */
+    /* font-weight: 800; */
+    text-align: center;
+    margin: 0;
+  }
+
+  form {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+  }
+
+  #range {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* gap: 8%; */
+    height: 70%;
+  }
+
+  #number,
+  #start,
+  #end {
+    width: 100%;
+    border-radius: 6px;
+    /* padding: 18px; */
+    padding: 7%;
+  }
+
+  p {
+    /* border: 2px solid blue; */
+    background-color: blue;
+    width: 94%;
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    /* min-height: 0px; */
+    /* overflow: scroll; */
+
+    /* id box ka gap kam krna hai */
+    /* min and max height define krna */
+    /* p tag ka min or max height define krna */
+    /* scroll bar lagana hai */
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #box {
+    width: 70%;
+    /* min-height: 60vh; */
+    height: 450px;
+
+    gap: 25%;
+    /* padding: 40px 40px; */
+    padding: 8% 9%;
+    /* padding-bottom: 45px; */
+    padding-bottom: 15%;
+  }
+
+  h1 {
+    font-size: 30px;
+    /* font-weight: bolder; */
+    /* font-weight: 800; */
+    text-align: center;
+    margin: 0;
+  }
+
+  form {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+  }
+
+  #range {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* gap: 8%; */
+    height: 70%;
+  }
+
+  #number,
+  #start,
+  #end {
+    width: 100%;
+    border-radius: 6px;
+    /* padding: 18px; */
+    /* padding: 7%; */
+  }
+
+  p {
+    /* border: 2px solid blue; */
+    background-color: blue;
+    width: 94%;
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    /* min-height: 0px; */
+    /* overflow: scroll; */
+
+    /* id box ka gap kam krna hai */
+    /* min and max height define krna */
+    /* p tag ka min or max height define krna */
+    /* scroll bar lagana hai */
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #box {
+    width: 70%;
+    /* min-height: 60vh; */
+    height: 450px;
+
+    gap: 35%;
+    /* padding: 40px 40px; */
+    padding: 8% 9%;
+    /* padding-bottom: 45px; */
+    padding-bottom: 15%;
+  }
+
+  h1 {
+    font-size: 32px;
+    /* font-weight: bolder; */
+    /* font-weight: 800; */
+    text-align: center;
+    margin: 0;
+  }
+
+  form {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+  }
+
+  #range {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* gap: 8%; */
+    height: 70%;
+  }
+
+  #number,
+  #start,
+  #end {
+    width: 100%;
+    border-radius: 6px;
+    /* padding: 18px; */
+    /* padding: 7%; */
+  }
+
+  p {
+    /* border: 2px solid blue; */
+    background-color: blue;
+    width: 94%;
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    /* min-height: 0px; */
+    /* overflow: scroll; */
+
+    /* id box ka gap kam krna hai */
+    /* min and max height define krna */
+    /* p tag ka min or max height define krna */
+    /* scroll bar lagana hai */
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  #box {
+    width: 40%;
+    height: 40%;
+
+    /* border: 2px solid rgb(81, 255, 0); */
+    background-color: white;
+    border-radius: 18px;
+    padding: 40px 40px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px #cecece;
+    gap: 30%;
+  }
+
+  h1 {
+    color: blue;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  form {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 94%;
+  }
+
+  #number,
+  #start,
+  #end {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    background-color: blue;
+    border-radius: 4px;
+    border: none;
+  }
+
+  #number::placeholder,
+  #start::placeholder,
+  #end::placeholder {
+    color: white;
+    user-select: none;
+  }
+
+  #number:hover,
+  #start:hover,
+  #end:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 0, 230);
+  }
+
+  #number:focus,
+  #start:focus,
+  #end:focus {
+    color: white;
+    user-select: none;
+  }
+
+  #range {
+    /* border: 1px solid rgb(0, 255, 42); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #start,
+  #end {
+    width: 49%;
+    /* width: 190px; */
+  }
+
+  p {
+    /* border: 2px solid blue; */
+    background-color: blue;
+    width: 94%;
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    /* min-height: 0px; */
+    /* overflow: scroll; */
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  #box {
+    width: 70%;
+    /* min-height: 60vh; */
+    height: 450px;
+
+    gap: 25%;
+    /* padding: 40px 40px; */
+    padding: 8% 9%;
+    /* padding-bottom: 45px; */
+    padding-bottom: 15%;
+  }
+
+  h1 {
+    font-size: 30px;
+    /* font-weight: bolder; */
+    /* font-weight: 800; */
+    text-align: center;
+    margin: 0;
+  }
+
+  form {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+  }
+
+  #range {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* gap: 8%; */
+    height: 70%;
+  }
+
+  #number,
+  #start,
+  #end {
+    width: 100%;
+    border-radius: 6px;
+    /* padding: 18px; */
+    /* padding: 7%; */
+  }
+
+  p {
+    /* border: 2px solid blue; */
+    background-color: blue;
+    width: 94%;
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    /* min-height: 0px; */
+    /* overflow: scroll; */
+
+    /* id box ka gap kam krna hai */
+    /* min and max height define krna */
+    /* p tag ka min or max height define krna */
+    /* scroll bar lagana hai */
+  }
+}

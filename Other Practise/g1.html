@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication Table Generator</title>
+    <link rel="stylesheet" href="g1.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Multiplication Table</h1>
+
+      <form onsubmit="show(event)">
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter a number"
+          required
+        />
+        <input
+          type="number"
+          id="start"
+          placeholder="Where to start (e.g. 1)"
+          required
+        />
+        <input
+          type="number"
+          id="end"
+          placeholder="Where to end (e.g. 10)"
+          required
+        />
+
+        <button type="submit">Generate Table</button>
+      </form>
+
+      <p id="result"></p>
+    </div>
+
+    <script src="g1.js"></script>
+  </body>
+</html>
