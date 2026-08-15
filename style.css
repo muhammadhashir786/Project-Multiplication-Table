@@ -119,6 +119,13 @@ p {
   border: 1px solid #dbe5ff;
 }
 
+/* Modern Browsers (Firefox, Chrome 121+) */
+
+p {
+  scrollbar-color: blue white; /* important */
+  scrollbar-width: auto; /* important */
+}
+
 /* Responsiveness */
 
 /* 480 */
