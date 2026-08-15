@@ -3,9 +3,9 @@ let startInput = document.querySelector("#start")
 let endInput = document.querySelector("#end")
 let resultP = document.querySelector("#result")
 
-resultP.style.display = "none"
+// resultP.style.display = "none"
 
-function show(event) {
+function table(event) {
     event.preventDefault()
 
     // console.log(input.value);
@@ -14,11 +14,10 @@ function show(event) {
     let start = Number(startInput.value)
     let end = Number(endInput.value)
 
-
     // Validation logic
     if (start > end) {
         resultP.style.display = "block";
-        resultP.innerHTML = "Start number end se chota ya barabar hona chahiye!";
+        resultP.innerHTML = "Start number must be less than or equal to End number!";
         return;
     }
 

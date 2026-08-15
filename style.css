@@ -10,7 +10,7 @@
 body {
   background-color: #e7eeff;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100vh; /* important */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ body {
 
 #box {
   width: 100%;
-  max-width: 480px;
+  max-width: 480px; /* important */
   background-color: #ffffff;
   border-radius: 20px;
   padding: 40px 30px;
@@ -68,7 +68,7 @@ input::placeholder {
 input:focus {
   border: 2px solid blue;
   background-color: #ffffff;
-  box-shadow: 0 0 0 4px rgba(26, 86, 219, 0.1);
+  box-shadow: 0 0 0 4px rgba(26, 86, 219, 0.1); /* important */
 }
 
 #number:hover,
@@ -90,7 +90,7 @@ button {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition:
+  transition:/* samajhna hai */
     background-color 0.2s ease,
     transform 0.1s ease;
 }
@@ -100,7 +100,7 @@ button:hover {
 }
 
 button:active {
-  transform: scale(0.98);
+  transform: scale(0.98); /* important */
 }
 
 p {
@@ -114,12 +114,15 @@ p {
   line-height: 1.8;
   border-radius: 12px;
   padding: 20px;
-  max-height: 250px;
-  overflow-y: auto;
+  max-height: 250px; /* important */
+  overflow-y: auto; /* important */
   border: 1px solid #dbe5ff;
 }
 
 /* Responsiveness */
+
+/* 480 */
+
 @media screen and (max-width: 480px) {
   #box {
     padding: 30px 20px;
