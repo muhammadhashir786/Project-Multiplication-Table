@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table | Final Practise</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Multiplication Table</h1>
+
+      <form onsubmit="table(event)">
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter a number"
+          required
+        />
+        <input
+          type="number"
+          id="start"
+          placeholder="where to start (e.g. 1)"
+          required
+        />
+        <input
+          type="number"
+          id="end"
+          placeholder="where to end (e.g. 10)"
+          required
+        />
+        <button type="submit">Generate Table</button>
+      </form>
+
+      <p id="result"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
